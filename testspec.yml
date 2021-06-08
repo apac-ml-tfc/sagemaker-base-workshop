@@ -1,2 +1,10 @@
 # Test specifications for the workshop's automated test runner
+# Argh
 version: 0.1
+
+tree:
+  custom_tensorflow_keras_nlp:
+    contents:
+      Headline Classifier SageMaker.ipynb:
+        dependsOn:
+          - Headline Classifier Local.ipynb
